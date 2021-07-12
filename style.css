@@ -6,6 +6,10 @@ li {
 
 header {
     background-color: #FFFF9E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 a {
@@ -30,7 +34,60 @@ a:hover {
 }
 
 @media only screen and (max-width: 700px) {
+    section {
+        font-size: 1em;
+    }
+
     a {
         font-size: 1.5em;
     }
 }
+
+#projects {
+    background-color: #c8c8c8;
+    padding-bottom: 70px;
+}
+
+#projects img {
+    height: 400px;
+    width: 450px;
+    max-width: 80%;
+    border-radius: 10%;
+    transition: 0.5s ease;
+    margin: 10px auto;
+}
+
+#projects a {
+    display: flex;
+    justify-content: center;
+}
+
+#projects img:hover {
+    transform: scale(1.1);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.project {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 50px 50px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.social {
+    height: 128px;
+    width: 128px;
+    padding: 0px 20px;
+}
+
