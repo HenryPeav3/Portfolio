@@ -42,7 +42,15 @@ a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 980) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 786px) {
     section {
         font-size: 1em;
     }
@@ -53,12 +61,21 @@ a:hover {
 }
 
 @media only screen and (max-width: 595px) {
+    #head {
+        width: 50vw;
+    }
+
     #about {
         width: 50vw;
     }
 
     #projects {
         width: 80vw;
+    }
+
+    #contacts {
+        width: 20vw;
+        flex: 0 100%;
     }
 
     a {
