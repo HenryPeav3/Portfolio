@@ -5,7 +5,7 @@ li {
 }
 
 header {
-    background-color: #FFFF9E;
+    background-color: #f45702;
     position: fixed;
     top: 0;
     width: 100%;
@@ -24,7 +24,7 @@ li {
 }
 
 a {
-    color: #594A8A;
+    color: #03f834;
     font-size: 2em;
     text-decoration: none;
 }
@@ -86,7 +86,7 @@ a:hover {
 #content {
     display: grid;
     grid-template-rows: 1fr;
-    background-color: rgb(217, 255, 0);
+    background-color: rgb(3, 152, 245);
 }
 
 #about img {
@@ -145,6 +145,6 @@ a:hover {
 }
 
 footer {
-    background-image: #049e0b;
+    background-image: #dcf3a3;
 }
 
